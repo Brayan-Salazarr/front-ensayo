@@ -11,7 +11,7 @@ export class ProductService {
   private http = inject(HttpClient);
 
   // URL basada en tu 'application.properties' (puerto 3005) y 'ProductController' (/api/products)
-  private apiUrl = 'https://backeddespliegue.onrender.com';
+  private apiUrl = 'https://ensayodespliegue-1.onrender.com';
   /**
    * Obtener todos los productos
    * Endpoint: GET http://localhost:3005/api/products
